@@ -10,15 +10,12 @@ The program takes 5 input parameters
 
 #Active Users:
 
-In order to consider a user as an active user, its average time difference between consecutive activities/ events should be less than a particular threshold. In this case
-we take such a value from user, a good value can be considered 1 hours to find hourly (average) active users.
-To avoid the newcomers we ignore the users who have less than a particular number of activities/ events. This value is taken as an input from the user.
+In order to consider a user as an active user, its average time difference between consecutive activities/ events should be less than a particular threshold. In this case, we take such a value from user, a good value can be considered 1 hours to find hourly (average) active users. To avoid the newcomers we ignore the users who have less than a particular number of activities/ events. This value is taken as an input from the user.
 
 
 #Weekday Bizzers:
-In order to find out that if a user's traffic mostly comes during office hours, I find out the percentage of his traffic during office hours.
-All the users having traffic greater than a threshold input taken by user, would be considered weekday bizzers. Considering the lesiure time this
-number should be greater than 0.7.
+
+In order to find out that if a user's traffic mostly comes during office hours, I find out the percentage of his traffic during office hours. All the users having traffic greater than a threshold input taken by user, would be considered weekday bizzers. Considering the lesiure time this number should be greater than 0.7.
 
 
 
